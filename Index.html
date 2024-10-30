@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvira's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1>Alvira Angraini</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section (Hero) -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-text">
+                <p>— HELLO, WELCOME !</p>
+                <h1>I Am Web Designer</h1>
+                <p>An Informatics Engineer passionate about UI/UX design and data analysis.</p>
+                <p>With skills in web development and data insights, 
+                  I’m here to help you create</p> <p>engaging and effective digital solutions.</p>
+
+               <p> <button  class="explore-button" onclick="showAlert()">DOWNLOAD CV</button> </p>
+            </div>
+            <div class="profile-pic">
+                <img src="Assets/Photosaya.png" alt="Alvira's Profile Picture">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+<section id="about">
+  <div class="about-container">
+      <h2>About Me</h2>
+      <p class="intro">Hello! I'm a recent graduate in <span>Informatics Engineering</span> with a passion for blending technology and creativity.</p>
+
+      <div class="about-content">
+          <div class="about-text">
+              <h3>Background</h3>
+              <p>With a solid foundation in informatics, I have developed skills in programming, UI/UX principles, and data analysis. During my studies, I worked on various projects to create seamless, user-centered digital experiences.</p>
+              
+              <h3>Interests</h3>
+              <p>Beyond my professional skills, I'm deeply interested in exploring new technologies, experimenting with web design trends, and learning about data visualization. I enjoy keeping up with industry developments and integrating creative solutions into my work.</p>
+              
+              <h3>My Philosophy</h3>
+              <p>I believe great design goes beyond aesthetics; it’s about creating solutions that make lives easier. I approach each project with empathy, precision, and a focus on user satisfaction.</p>
+              
+              <p class="cta">If you're looking for someone who is enthusiastic about building efficient and beautiful digital solutions, feel free to <a href="#contact">connect with me!</a></p>
+          </div>
+          
+          <div class="about-image">
+              <img src="Assets/Photosaya.png" alt="Profile picture">
+          </div>
+      </div>
+  </div>
+</section>
+
+
+<!-- Skills Section -->
+<section id="skills">
+  <h2>Skills</h2>
+  <ul class="skills-list">
+      <li class="skill-item html">HTML & CSS</li>
+      <li class="skill-item js">JavaScript</li>
+      <li class="skill-item uiux">UI/UX Design</li>
+      <li class="skill-item data">Data Analysis</li>
+  </ul>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+<footer>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <div class="footer-content">
+      <div class="social-media">
+          <a href="https://www.facebook.com/alvira.angraini.5?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/alviraangrn_?igsh=aTFqdGt6MzVyZGMw" target="_blank"><i class="fab fa-instagram"></i></a>
+
+      </div>
+      <p>&copy; 2024 All Rights Reserved</p>
+  </div>
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
